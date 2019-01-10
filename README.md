@@ -11,7 +11,25 @@ MyPhotoGuide is an application where you will be able to see all your latest ins
     -  The User Recent Uploads using the Instagram API.
         .   https://api.instagram.com/v1/users/self/media/recent/?access_token=ACCESS-TOKEN
         
-MyPhotoGuide uses below Cocoapods.
-1. Alamofire
+# Prerequisites
 
+1. Xcode Version 10
+2. Swift 4.2
+3. SourceTree
+4. Minumim SDK Version 11.0
+5. Cocoapods - Alamofire
+
+# Architecture Used
+
+Main Parts of VIPER
+The main parts of VIPER are:
+
+1. View: displays what it is told to by the Presenter and relays user input back to the Presenter.
+2. Interactor: contains the business logic as specified by a use case.
+3. Presenter: contains view logic for preparing content for display (as received from the Interactor) and for reacting to user inputs (by requesting new data from the Interactor).
+4. Entity: contains basic model objects used by the Interactor.
+5. Routing: contains navigation logic for describing which screens are shown in which order.
+
+# Author
+Manjunath Shivakumara - (https://github.com/ManjunathShiv)
 
