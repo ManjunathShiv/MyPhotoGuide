@@ -30,6 +30,14 @@ The main parts of VIPER are:
 4. Entity: contains basic model objects used by the Interactor.
 5. Routing: contains navigation logic for describing which screens are shown in which order.
 
+# Improvements
+
+o	A carousel for viewing all the images which are uploaded together. Currently only one image out of the group is displayed.
+o	A Pan functionality while zooming on the image.
+o	Error Handling in all the places if a API fails to load.
+o	A proper redirect URL to fall back on.
+o	Social Login support, Currently the social login (Facebook) is not supported.
+
 # Author
 Manjunath Shivakumara - (https://github.com/ManjunathShiv)
 
